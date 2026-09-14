@@ -6,6 +6,7 @@ int add(int a,int b)
     return a+b;
 }
 int main(){
+    cout<<"Hello Jenkins!!";
     if(add(2,3)==5)
     {
         cout<<"Test passed";
