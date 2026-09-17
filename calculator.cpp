@@ -6,13 +6,15 @@ int add(int a,int b)
     return a+b;
 }
 int main(){
+    int a,b;
     cout<<"Hello Jenkins!!";
-    if(add(2,3)==5)
+    cin>>a>>b;
+    if(add(a,b)==5)
     {
         cout<<"Test passed";
         return 0;
     }
     else
-    return 1;
+    cout<< add(a,b);
 
 }
