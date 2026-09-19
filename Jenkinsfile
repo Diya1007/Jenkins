@@ -23,7 +23,7 @@ pipeline {
 
         stage('Run Test') {
             steps {
-                sh 'echo "10 20"|./build/MyCppTest'
+                sh 'echo "$A $B"|./build/MyCppTest'
             }
         }
     }
